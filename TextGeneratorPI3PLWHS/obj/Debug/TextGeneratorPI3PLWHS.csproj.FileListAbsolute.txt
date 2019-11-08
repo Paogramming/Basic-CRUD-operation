@@ -1,0 +1,17 @@
+C:\Users\plucas21\source\repos\TextGeneratorPI3PLWHS\TextGeneratorPI3PLWHS\bin\Debug\DBTextGenerator.mdf
+C:\Users\plucas21\source\repos\TextGeneratorPI3PLWHS\TextGeneratorPI3PLWHS\bin\Debug\DBTextGenerator_log.ldf
+C:\Users\plucas21\source\repos\TextGeneratorPI3PLWHS\TextGeneratorPI3PLWHS\bin\Debug\TextGeneratorPI3PLWHS.exe.config
+C:\Users\plucas21\source\repos\TextGeneratorPI3PLWHS\TextGeneratorPI3PLWHS\bin\Debug\TextGeneratorPI3PLWHS.exe
+C:\Users\plucas21\source\repos\TextGeneratorPI3PLWHS\TextGeneratorPI3PLWHS\bin\Debug\TextGeneratorPI3PLWHS.pdb
+C:\Users\plucas21\source\repos\TextGeneratorPI3PLWHS\TextGeneratorPI3PLWHS\bin\Debug\MetroFramework.Design.dll
+C:\Users\plucas21\source\repos\TextGeneratorPI3PLWHS\TextGeneratorPI3PLWHS\bin\Debug\MetroFramework.dll
+C:\Users\plucas21\source\repos\TextGeneratorPI3PLWHS\TextGeneratorPI3PLWHS\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\plucas21\source\repos\TextGeneratorPI3PLWHS\TextGeneratorPI3PLWHS\obj\Debug\TextGeneratorPI3PLWHS.csprojAssemblyReference.cache
+C:\Users\plucas21\source\repos\TextGeneratorPI3PLWHS\TextGeneratorPI3PLWHS\obj\Debug\TextGeneratorPI3PLWHS.Properties.Resources.resources
+C:\Users\plucas21\source\repos\TextGeneratorPI3PLWHS\TextGeneratorPI3PLWHS\obj\Debug\TextGeneratorPI3PLWHS.Form1.resources
+C:\Users\plucas21\source\repos\TextGeneratorPI3PLWHS\TextGeneratorPI3PLWHS\obj\Debug\TextGeneratorPI3PLWHS.csproj.GenerateResource.cache
+C:\Users\plucas21\source\repos\TextGeneratorPI3PLWHS\TextGeneratorPI3PLWHS\obj\Debug\TextGeneratorPI3PLWHS.csproj.CoreCompileInputs.cache
+C:\Users\plucas21\source\repos\TextGeneratorPI3PLWHS\TextGeneratorPI3PLWHS\obj\Debug\TextGeneratorPI3PLWHS.csproj.CopyComplete
+C:\Users\plucas21\source\repos\TextGeneratorPI3PLWHS\TextGeneratorPI3PLWHS\obj\Debug\TextGeneratorPI3PLWHS.exe
+C:\Users\plucas21\source\repos\TextGeneratorPI3PLWHS\TextGeneratorPI3PLWHS\obj\Debug\TextGeneratorPI3PLWHS.pdb
+C:\Users\plucas21\source\repos\TextGeneratorPI3PLWHS\TextGeneratorPI3PLWHS\obj\Debug\TextGeneratorPI3PLWHS.View.FormGeneralInfo.resources

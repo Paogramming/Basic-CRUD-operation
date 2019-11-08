@@ -1,0 +1,59 @@
+Create Table GeneralInfo(
+	SiteName varchar(100) primary key,
+	Country varchar(100),
+	PlantCode varchar(100),
+	SLOC varchar(100),
+	CityCode varchar(100),
+	PartnerNumber varchar(100),
+	CompleteAddress varchar(max),
+	GLNILN varchar(100),
+	ServerHostURL varchar(max),
+	AS2ID varchar(100),
+	SSLCertificate bit
+)
+
+
+CREATE PROCEDURE GeneralInfo_Insert(
+	@SiteName varchar(100),
+	@Country varchar(100),
+	@PlantCode varchar(100),
+	@SLOC varchar(100),
+	@CityCode varchar(100),
+	@PartnerNumber varchar(100),
+	@CompleteAddress varchar(max),
+	@GLNILN varchar(100),
+	@ServerHostURL varchar(max),
+	@AS2ID varchar(100),
+	@SSLCertificate bit
+)
+as begin insert into GeneralInfo (SiteName,Country,PlantCode,SLOC,CityCode,PartnerNumber,CompleteAddress,GLNILN,ServerHostURL,
+AS2ID,SSLCertificate)
+values (@SiteName,@Country,@PlantCode,@SLOC,@CityCode,@PartnerNumber,@CompleteAddress,@GLNILN,@ServerHostURL,@AS2ID,@SSLCertificate)
+end
+
+
+Create Procedure GeneralInfo_Update(
+@SiteName varchar(100),
+	@Country varchar(100),
+	@PlantCode varchar(100),
+	@SLOC varchar(100),
+	@CityCode varchar(100),
+	@PartnerNumber varchar(100),
+	@CompleteAddress varchar(max),
+	@GLNILN varchar(100),
+	@ServerHostURL varchar(max),
+	@AS2ID varchar(100),
+	@SSLCertificate bit
+)
+as begin update GeneralInfo set 
+Country = @Country, 
+PlantCode = @PlantCode,
+SLOC = @SLOC,
+CityCode = @CityCode,
+PartnerNumber = @PartnerNumber,
+CompleteAddress = @CompleteAddress,
+GLNILN =@GLNILN,
+ServerHostURL=@ServerHostURL,
+AS2ID=@AS2ID,
+SSLCertificate = @SSLCertificate 
+where SiteName = @SiteName end

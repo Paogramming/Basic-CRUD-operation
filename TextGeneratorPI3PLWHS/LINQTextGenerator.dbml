@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="DBTextGenerator" Class="LINQTextGeneratorDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\DBTextGenerator.mdf;Integrated Security=True" SettingsObjectName="TextGeneratorPI3PLWHS.Properties.Settings" SettingsPropertyName="DBTextGeneratorConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.GeneralInfo" Member="GeneralInfos">
+    <Type Name="GeneralInfo">
+      <Column Name="SiteName" Type="System.String" DbType="VarChar(100) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Country" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="PlantCode" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="SLOC" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="CityCode" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="PartnerNumber" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="CompleteAddress" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="GLNILN" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ServerHostURL" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="AS2ID" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="SSLCertificate" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Function Name="dbo.GeneralInfo_Insert" Method="GeneralInfo_Insert">
+    <Parameter Name="SiteName" Parameter="siteName" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="Country" Parameter="country" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="PlantCode" Parameter="plantCode" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="SLOC" Parameter="sLOC" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="CityCode" Parameter="cityCode" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="PartnerNumber" Parameter="partnerNumber" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="CompleteAddress" Parameter="completeAddress" Type="System.String" DbType="VarChar(MAX)" />
+    <Parameter Name="GLNILN" Parameter="gLNILN" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="ServerHostURL" Parameter="serverHostURL" Type="System.String" DbType="VarChar(MAX)" />
+    <Parameter Name="AS2ID" Parameter="aS2ID" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="SSLCertificate" Parameter="sSLCertificate" Type="System.Boolean" DbType="Bit" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.GeneralInfo_Update" Method="GeneralInfo_Update">
+    <Parameter Name="SiteName" Parameter="siteName" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="Country" Parameter="country" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="PlantCode" Parameter="plantCode" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="SLOC" Parameter="sLOC" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="CityCode" Parameter="cityCode" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="PartnerNumber" Parameter="partnerNumber" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="CompleteAddress" Parameter="completeAddress" Type="System.String" DbType="VarChar(MAX)" />
+    <Parameter Name="GLNILN" Parameter="gLNILN" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="ServerHostURL" Parameter="serverHostURL" Type="System.String" DbType="VarChar(MAX)" />
+    <Parameter Name="AS2ID" Parameter="aS2ID" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="SSLCertificate" Parameter="sSLCertificate" Type="System.Boolean" DbType="Bit" />
+    <Return Type="System.Int32" />
+  </Function>
+</Database>
